@@ -41,4 +41,6 @@ Other important things I learned from the talk:
 
 The game as a whole was nerve wracking. I thought at first that it was a simple way to hack my password. Which is was if you would look at it in a different way. I made pass level 7 and made an attempt on level 8. 
 
+Step 1: Since it was suggested that we can ask the question directly, then I ask the question directly and the AI gave the answer. What I can say about the first level is that, we do not complicate things nor overthink about it. Sometimes the answer is right infront of us. 
+
 ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/0b54ef30-c15b-48f2-a1f2-447d33e434aa)
