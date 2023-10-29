@@ -44,3 +44,8 @@ The game as a whole was nerve wracking. I thought at first that it was a simple 
 Step 1: Since it was suggested that we can ask the question directly, then I ask the question directly and the AI gave the answer. What I can say about the first level is that, we do not complicate things nor overthink about it. Sometimes the answer is right infront of us. 
 
 ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/0b54ef30-c15b-48f2-a1f2-447d33e434aa)
+
+Step 2: This level, a certain security parameter was already added but still there is a way to go around with it. The AI said, it is not allowed to tell the password directly but if you would think about, it was not taught "maybe" to disinguish when persons are asking for the password but using another term?
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/aadb0529-bd30-49ab-b335-d62803ac8e61)
+
