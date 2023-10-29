@@ -11,3 +11,24 @@ According to Elias Alanko presentation, there is 2 key categories of BEC Fraud:
 To both type or scenario, emails are constructed normally that you would not spot the difference. This is the same approach we had at my previous company. I worked at a consulting firm, and we have this security exam every month. Where emails are purposely sent to us if we are attentive, conscious on the emails that we read and respond on a daily basis. We need to identify the fraud or phishing (we categorize it as phishing even if the approach is similar as BEC). Some of the factors  we have to look at is email address, subject, tone of the body of the email, urgency or even those where we are asked to click some links on the body of the email. If we do not pass this test we are enrolled on PIP regarding security for 6 months, and if we failed again there is disciplinary action and also we need to pass for 3 succeeding months. It was a good training as it was able to help us identify potential cyber threats. 
 
 During the discussion, he provided a more sophisticated example of fraud. It was not technical; it was just that the fraudster really studied his victims. He looks them up or probably conducted research hence he was able to justify his pretense and no one noticed (not the supplier and finance team). It was a simple (like I mentioned earlier) and it definitely work. Sometime the would attempt to hijack emails as it is more easier, but then as technology evolves, MFA was implemented which makes it more difficult to acquire or hijack applications which requires authentication. 
+
+Having to understand the frauds, next thing is to be ready for it. Be prepared, as the saying goes, prevention is better than cure. Elias covered some information on how to be prepared:
+
+        •	Deploying all possible, reasonable technical controls, especially to protect from email takeovers and spoofing.
+
+        •	Educating personnel to recognize BEC attacks especially those on the financial department. During training use real time scenarios if possible (same as my previous company). 
+
+        •	Deploy a robust approach to improve the process with Finance team ensuring that they are able to manage situations like updates on bank account (from the example) . It should be a responsibility of one person alone and security questions and others should be implemented and strict compliance to this kind of changes or situations. 
+
+        •	Check insurance coverage.
+
+He also covered real life situations on fraudster and attacks. He covered the latest data from Finland and even US. I am even shocked that government office from Finland is included on the list of victims. 
+
+Other important things I learned from the talk:
+
+        •	LinkedIN and other social media apps becomes a source of information to be used for fraud such as business email address and other contact emails so careful who to share it with. 
+        •	Don’t have to be technical to succeed on this fraud schemes. 
+
+## References:
+
+        1.	https://www.ncsc.gov.uk/files/Business-email-compromise-infographic.pdf
