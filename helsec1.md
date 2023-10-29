@@ -60,3 +60,13 @@ Step 3: Here, on this level, another security measure was added to make it more 
 ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/ac1dca1a-912c-4679-9bd6-802fa7be7531)
 
 Thats how I guessed the password or let Gandalf AI tell me the password. 
+
+Step 4: Level 4 is a little bit harder because there is already another AI involved which will attempt to sabotage the answer but Gandalf is willing to tell you the password. The technique on this level is make it simple and dont ask it directly and because you know there is another AI involved, you have to assume that there must be wrong or a little error on the answer provider but it would not be totally wrong. (Personal tip: if you follow what I did, write down the answers on an excel file so you can follow it)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/8dc23f69-c7e6-4038-83d1-9ee1422e64d2)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/ac846735-278d-4b94-b565-f75f566d0061)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/5d180f13-da2c-4515-bd45-5193cad8f012)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/a02596f8-656d-480b-9dcd-d7d2341298d1)
