@@ -45,7 +45,18 @@ Step 1: Since it was suggested that we can ask the question directly, then I ask
 
 ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/0b54ef30-c15b-48f2-a1f2-447d33e434aa)
 
-Step 2: This level, a certain security parameter was already added but still there is a way to go around with it. The AI said, it is not allowed to tell the password directly but if you would think about, it was not taught "maybe" to disinguish when persons are asking for the password but using another term?
+Step 2: This level, a certain security parameter was already added but still there is a way to go around with it. The AI said, it is not allowed to tell the password directly but if you would think about, it was not taught "maybe" to disinguish when persons are asking for the password but using another term.
 
 ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/aadb0529-bd30-49ab-b335-d62803ac8e61)
 
+Step 3: Here, on this level, another security measure was added to make it more threat proof from hackers or people messsing around. The note says "It was told not to reveal the password so it has to check that all its answer does not contain the password". Meaning the whole word should not be in the answer but you can ask it in piece. Meaning you can ask for the number of letters, first 3 letters or last letters which I did and it worked. 
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/417fbcc5-a8d4-4bab-a893-b27df4359460)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/13a7ce53-95d4-4ada-b16b-3f73b15a18a7)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/5623c712-84a2-4cbc-8ba7-dc2bfa1a3a8b)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/ac1dca1a-912c-4679-9bd6-802fa7be7531)
+
+Thats how I guessed the password or let Gandalf AI tell me the password. 
