@@ -32,3 +32,8 @@ Other important things I learned from the talk:
 ## References:
 
         1.	https://www.ncsc.gov.uk/files/Business-email-compromise-infographic.pdf
+
+
+### Gandalf AI Game
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/0b54ef30-c15b-48f2-a1f2-447d33e434aa)
