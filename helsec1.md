@@ -34,6 +34,11 @@ Other important things I learned from the talk:
         1.	https://www.ncsc.gov.uk/files/Business-email-compromise-infographic.pdf
 
 
+
+
 ### Gandalf AI Game
+
+
+The game as a whole was nerve wracking. I thought at first that it was a simple way to hack my password. Which is was if you would look at it in a different way. I made pass level 7 and made an attempt on level 8. 
 
 ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/0b54ef30-c15b-48f2-a1f2-447d33e434aa)
