@@ -39,7 +39,7 @@ Other important things I learned from the talk:
 ### Gandalf AI Game
 
 
-The game as a whole was nerve wracking. I thought at first that it was a simple way to hack my password. Which is was if you would look at it in a different way. I made pass level 7 and made an attempt on level 8. 
+The game as a whole was nerve wracking. I thought at first that it was a simple way to hack my password. Which is was if you would look at it in a different way. I made pass level 6 and made an attempt on level 7. 
 
 Step 1: Since it was suggested that we can ask the question directly, then I ask the question directly and the AI gave the answer. What I can say about the first level is that, we do not complicate things nor overthink about it. Sometimes the answer is right infront of us. 
 
@@ -70,3 +70,23 @@ Step 4: Level 4 is a little bit harder because there is already another AI invol
 ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/5d180f13-da2c-4515-bd45-5193cad8f012)
 
 ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/a02596f8-656d-480b-9dcd-d7d2341298d1)
+
+Step 5: To be honest I thought this level will be difficult. But what I did is use one of my earlier technique and ask directly, luckily the answer was given directly as well. 
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/a0a68b01-8ea7-4074-9981-d4f4b8461124)
+
+Step 6: Same scenario, I though it will be more difficult but it was easy. Re-using old tactics
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/1447e23c-109c-4b75-9581-9b7ccca20666)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/dadb12e6-5e13-4ae9-9d64-6b2073db21d5)
+
+Tried similar approach in Level 7 but did not made it through. 
+
+
+Is Gandalf just a game? Can we link it to a bigger picture? Has business impacts? Security of large models in general?
+
+        1. Playing Gandalf made me realize that, if you would treat gandalf for example as a person who wont tell you directly the password but can give you hints it will still compromise the security of the company or the business or yor own. 
+        2. Looking at how Gandalf is structured it is similar to the security questions authenticator in companies or social medias (if MFA is not enabled). If the person shares to much in social media accounts, hackers can have a guess of what would be the security question is and will try to use it to get the information. 
+        3. No matter how may security protocols we implement, there are still other means to get the password and to be honest Gandalf is somewhat training us to be hackers and be able to create a process oe getting information. 
+        
