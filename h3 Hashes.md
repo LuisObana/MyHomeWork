@@ -64,3 +64,7 @@ A one-way hash function, known by various names such as compression function, me
 ## Message Authentication Codes
 
 A Message Authentication Code (MAC), also referred to as a Data Authentication Code (DAC), is a one-way hash function enhanced with a secret key, where the hash value is derived from both the pre-image and the key. Similar to traditional hash functions, the primary difference lies in the inclusion of a secret key, ensuring that only individuals possessing the key can verify the hash value. MACs can be constructed from hash functions, block encryption algorithms, or dedicated MACs, providing a secure means of ensuring data integrity and authenticity in various cryptographic applications.
+
+## COMMUNICATIONS USING PUBLIC-KEY CRYPTOGRAPHY
+
+Symmetric algorithms, likened to safes with a combination key, require both parties to share the same key for secure communication. In 1976, Whitfield Diffie and Martin Hellman introduced public-key cryptography, revolutionizing the field. This approach uses two distinct keys—one public and one private. While encryption with the public key is easy and accessible to anyone, only the holder of the private key can decrypt the message. The process is based on trap-door one-way functions, making encryption straightforward and decryption computationally hard without the private key. Public-key cryptography addresses the key-management problem by providing each user with a unique public and private key pair, facilitating secure communication in a network without the need for shared symmetric keys.
