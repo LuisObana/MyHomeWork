@@ -89,3 +89,73 @@ Systems don't store original passwords, they store hashes. They look like this "
 But you can make computer try every word in the dictionary, and tell if one matches.
 
 Prior to working on an penetration testing techniques, ensure knowledge of legal and ethical considerations. Safe usage of these tools, tactics and procedure might need to obtain contracts and permissions and should posses adequate technical skills. Always <b>check the laws
+
+Let us install Hashcat
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/6e04bb8c-0b3b-4f65-b8b2-c264ddc0e5b4)
+
+Creating new directory specific for this work
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/6c9634e2-c59f-4d8f-83a5-fb516ece6254)
+
+Get a big dictionary. Rockyou is probably the most popular
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/cc046dea-dd62-4244-93f7-1f247cb731bf)
+
+It's just one word after another
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/cd033571-f591-4775-ad42-74bff661ce70)
+
+### Identify Hash Type
+
+Hashcat needs to know the type of the hash to crack, the number for the -m parameter. It's common to look at hashes really hard and compare them to 'hashcat --example-hashes'. However, there is an easy way
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/3506b9b1-1e5f-4c64-b1f7-3b57dda859a6)
+
+In hashid, -m parameter shows the number that's used in the actual cracking, the hashcat parameter with the same name -m. Often, the right type is among top three candidates. If not, you can rule out many candidates based on where the hash was obtained (Windows, Linux...).
+
+Note:
+When I followed the instruction above, the first attempt I got the error below:
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/4ec9071f-7545-499f-837b-c358d489bb13)
+
+I search for the error <b>"hashid: command not found" error in the web and found one solution provided that worked link: https://command-not-found.com/hashid
+The advice was to install
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/2fb92121-21a2-4bb6-9b3b-6264637ed2b2)
+
+After installation, I tried the command again and it worked
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/06a240dc-2216-4b64-b523-a582ae34993d)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/de6ae6f4-6bb2-4a04-b02b-f059b9c1ee88)
+
+### Crack the Hash
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/a3c61e80-0087-409a-9cc2-d218ff96df5b)
+
+After the first attempt, I got an error
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/9d0ebc2b-b778-479e-b13c-3fc58fe807b7)
+
+I search the internet again and found similar error from others. Link: https://hashcat.net/forum/thread-10730.html  
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/e97452a3-a20b-462b-8bd6-d79357437590)
+
+In logged off from my virtual machine and upgraded the RAM from 2000 MB to 4000MB. After that it worked
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/7b0e19b6-1e44-47d2-8d75-d5dc978d1ff8)
+
+### What Did Hashcat Say?
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/05089610-5fdd-4ac9-a21a-0e59950413ab)
+
+For the example in the image, the correct word was in RockYou dictionary, and you will crack it. For some, you might get "Status: Exhausted" instead of "Cracked". That would mean that all words in the dictionary were tried, but none of them worked.
+
+### Where did the solution go?
+
+If you said "-o solved", it's in that file. 'cat solved'.
+
+If you already cracked it, but did not specify a file, you can see it with "--show":
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/0a5765aa-490c-4c94-b46f-719a9ab455e1)
