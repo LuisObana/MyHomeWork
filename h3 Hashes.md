@@ -68,3 +68,24 @@ A Message Authentication Code (MAC), also referred to as a Data Authentication C
 ## COMMUNICATIONS USING PUBLIC-KEY CRYPTOGRAPHY
 
 Symmetric algorithms, likened to safes with a combination key, require both parties to share the same key for secure communication. In 1976, Whitfield Diffie and Martin Hellman introduced public-key cryptography, revolutionizing the field. This approach uses two distinct keys—one public and one private. While encryption with the public key is easy and accessible to anyone, only the holder of the private key can decrypt the message. The process is based on trap-door one-way functions, making encryption straightforward and decryption computationally hard without the private key. Public-key cryptography addresses the key-management problem by providing each user with a unique public and private key pair, facilitating secure communication in a network without the need for shared symmetric keys.
+
+## Hybrid Cryptosystems
+
+During the emergence of public-key algorithms, a period coinciding with the consideration of the Data Encryption Standard (DES), there was political tension within the cryptographic community. Despite generating excitement in the media and scientific circles, public-key cryptosystems faced resistance from the cryptographic establishment. Simultaneously, the National Security Agency (NSA) proposed DES, leading to criticism from experts such as Marty Hellman and Diffie, who argued that the proposed key size was inadequate. The criticism was met with skepticism, with some viewing it as an attempt to undermine the proposed standard for personal gain. Public-key cryptography itself was also subject to competitive attacks in sales literature and technical papers. Despite this, the NSA claimed credit for the discovery of two-key cryptography a decade earlier, although no supporting evidence was publicly provided.
+
+In the real world, public-key algorithms are not a substitute for symmetric algorithms. They are not used to encrypt messages; they are used to encrypt keys. There are two reasons for this:
+        1.	Public-key algorithms are slow. Symmetric algorithms are generally at least 1000 times faster than public-key algorithms. Yes, computers are getting faster and faster, and in 15 years computers will be              able to do public-key cryptography at speeds comparable to symmetric cryptography today. But bandwidth requirements are also increasing, and there will always be the need to encrypt data faster than                 public-key cryptography can manage.
+        2.	Public-key cryptosystems are vulnerable to chosen-plaintext attacks. If C = E(P), when P is one plaintext out of a set of n possible plaintexts, then a cryptanalyst only has to encrypt all n possible                plaintexts and compare the results with C (remember, the encryption key is public). He won't be able to recover the decryption key this way, but he will be able to determine P.
+
+A chosen-plaintext attack is effective when there are limited possible encrypted messages, allowing the cryptanalyst to systematically try various options. This vulnerability exists, for instance, if the plaintext (P) is a dollar amount below $1,000,000. Symmetric cryptosystems are not susceptible to this attack due to the inability to perform trial encryptions with an unknown key.
+
+In practical implementations, public-key cryptography is often used to secure and distribute session keys, which, in turn, are employed with symmetric algorithms to secure message traffic—a setup referred to as a hybrid cryptosystem. This approach addresses a crucial key-management problem, as session keys are created when needed and destroyed when no longer required, minimizing the risk of compromise. While the private key is still vulnerable, its usage is limited to encrypting a session key once per communication, reducing the overall risk compared to symmetric cryptography.
+
+
+## Cracking Passwords with Hashcat
+
+Systems don't store original passwords, they store hashes. They look like this "f2477a144dff4f216ab81f2ac3e3207d". Hashing is a one way function, so you can't turn it back to password.
+
+But you can make computer try every word in the dictionary, and tell if one matches.
+
+Prior to working on an penetration testing techniques, ensure knowledge of legal and ethical considerations. Safe usage of these tools, tactics and procedure might need to obtain contracts and permissions and should posses adequate technical skills. Always <b>check the laws
