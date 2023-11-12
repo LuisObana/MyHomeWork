@@ -161,3 +161,10 @@ If you already cracked it, but did not specify a file, you can see it with "--sh
 
 ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/0a5765aa-490c-4c94-b46f-719a9ab455e1)
 
+## Command Line Basics Revisited
+
+Checking the current directory
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/4a36a9ca-a692-4f81-b502-00e9c75d84be)
+
+Note: * Dollar sign “$” is the normal user command prompt, user does not write that. After a command, hash mark “#” is comment character, rest of the line is ignored. *
