@@ -172,3 +172,11 @@ Checking the current directory
 Note: *Dollar sign “$” is the normal user command prompt, user does not write that. After a command, hash mark “#” is comment character, rest of the line is ignored.*
 
 When working on a terminal, you are always on a directory. Current directory is the *working directory*. The code <b>pwd prints the working directory. 
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/7d5baec5-716d-4a63-87ec-1c7d28764d9d)
+
+To check the list of files we can manipulate, the code to use is *ls*. If the shell says *No such file or directory* means it does not exist but it is always wise to check.
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/10694a08-bf66-46f4-9291-efca693c1887)
+
+The command to use when changing directory is *cd*. It is always cd <space> name of directory and forward slash(/)
