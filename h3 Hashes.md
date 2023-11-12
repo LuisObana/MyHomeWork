@@ -189,4 +189,39 @@ To go back to the previous directory, you can type *cd ..*
 
 ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/799600a5-98d0-45c8-a4fa-433e93f277cb)
 
-Creating a new file in terminal we can use pico and nano (popular codes) 
+Creating a new file in terminal we can use pico and nano (popular codes) and use CTRL+X y then ENter to save and exit. You can also see this commands at the bottom of the screen. Example Ctrl + X is the same as ^X. 
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/05685be7-080e-4a86-b495-d772a0be7c22)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/7e6a2164-f3d5-4f4f-8e1c-193c2d73bae0)
+
+To check if file was saved, type ls or list of files
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/3f0e3004-3c30-4e5e-a893-ca2292a94ae4)
+
+Making a new directory, the code is mkdir Newfolder(foldername)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/a086ba0d-1ff4-453d-adaa-f0b0adddbf49)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/cd5b855a-de80-4056-b63b-9c2e1b2cd398)
+
+Note: I have used ls to check if the new folder was created
+
+Moving files between directories or renaming files the command is mv oldname newname
+
+    1. If Newname does not exist, oldname is renamed to Newname
+    2. If both parameters are files, Newname is overwritten
+    3. If target is directory, oldname is moved there
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/3d5cbf3b-0c84-437d-bbd7-46eb96b5768c)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/42078489-d12e-469f-9fbe-dc5a3597706c)
+
+## SSH Remote Control
+
+To open a remote command shell in avery secure way, we use ssh. 
+
+On my first attempt, it did not went trough because ssh was not installed yet. Hence I installed ssh. 
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/031a053b-079f-4b15-9936-6a5aa109799c)
+
