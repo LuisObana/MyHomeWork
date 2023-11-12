@@ -179,4 +179,4 @@ To check the list of files we can manipulate, the code to use is *ls*. If the sh
 
 ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/10694a08-bf66-46f4-9291-efca693c1887)
 
-The command to use when changing directory is *cd*. It is always cd <space> name of directory and forward slash(/)
+The command to use when changing directory is *cd*. It is always cd"<space>" name of directory and forward slash(/)
