@@ -168,3 +168,5 @@ Checking the current directory
 ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/4a36a9ca-a692-4f81-b502-00e9c75d84be)
 
 Note: *Dollar sign “$” is the normal user command prompt, user does not write that. After a command, hash mark “#” is comment character, rest of the line is ignored.*
+
+When working on a terminal, you are always <b>on a directory<b> 
