@@ -185,3 +185,8 @@ The command to use when changing directory is *cd*. See image below for the chan
 
 ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/14829c39-04aa-4560-be0e-814cda14b465)
 
+To go back to the previous directory, you can type *cd ..*
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/799600a5-98d0-45c8-a4fa-433e93f277cb)
+
+Creating a new file in terminal we can use pico and nano (popular codes) 
