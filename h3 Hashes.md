@@ -235,3 +235,33 @@ Some Useful Helps
     2. Short built in help
         2.1. $ ls --help
         2.2. $ wget -h
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/006832ab-b18b-484f-bf7c-646b5824f0be)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/0099dd3f-cd42-4dd9-86b1-9a34b25e23f3)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/0d667add-e783-4b6c-9732-a64d844d4f0f)
+
+## History and Guessing
+
+Tab (above caps lock) can be used to show what needs to be type next. 
+History command can also be use to check all the commands used in the terminal.
+
+## Important Directories
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/6268cdf5-e061-4317-bc41-afe19c73f374)
+
+## Administrative Commands
+
+Minimum privilege principle states that we do operations with the lowest level of privileges possible. Only operations requiring high privileges are run with 'sudo'. These commands gain unlimited privileges.
+
+Commands affecting the whole system require higher privileges. Such operations include installing and removing software, creating users and managing privileges.
+
+### Package Management - Installing Software
+
+Package mangement is a safe and convenient way of installing software.
+
+Update list of available packages. Run apt-get update before giving other apt commands.
+
+=============================================================================================================================================================================================================================================================
+
