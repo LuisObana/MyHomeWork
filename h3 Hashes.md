@@ -26,10 +26,10 @@ In daily life, informal protocols govern various activities seamlessly, from ord
 An arbitrator is an impartial third party without a vested interest in a protocol, entrusted by all involved parties to ensure its completion. This concept, rooted in the history of society, involves individuals with authority and a social role to act fairly. While lawyers often serve as arbitrators in the real world, the ideal involves a high level of trust, where the arbitrator's actions and decisions are accepted as true and correct by all parties, with a recognition that betraying this trust could have severe consequences, such as disbarment for lawyers.
 
 This ideal can translate to the computer world, but there are several problems with computer arbitrators:
-    •	It is easier to find and trust a neutral third party if you know who the party is and can see his face. Two parties suspicious of each other are also likely to be suspicious of a faceless arbitrator somewhere else on the network.
+    •	It is easier to find and trust a neutral third party if you know who the party is and can see his face. Two parties suspicious of each other are also likely to be suspicious of a faceless arbitrator                somewhere else on the network.
     •	The computer network must bear the cost of maintaining an arbitrator. We all know what lawyers charge; who wants to bear that kind of network overhead?
     •	There is a delay inherent in any arbitrated protocol.
-    •	The arbitrator must deal with every transaction; he is a bottleneck in large-scale implementations of any protocol. Increasing the number of arbitrators in the implementation can mitigate this problem, but that increases the cost.
+    •	The arbitrator must deal with every transaction; he is a bottleneck in large-scale implementations of any protocol. Increasing the number of arbitrators in the implementation can mitigate this problem, but         that increases the cost.
     •	Since everyone on the network must trust the arbitrator, he represents a vulnerable point for anyone trying to subvert the network.
 
 ### Adjudicated Protocols
@@ -49,9 +49,10 @@ Cryptographic attacks can target algorithms, techniques, or the protocols themse
 How do two parties communicate securely? They encrypt their communications, of course. The complete protocol is more complicated than that. 
 
 In summary, symmetric cryptosystems have the following problems:
-    •	Keys must be distributed in secret. They are as valuable as all the messages they encrypt, since knowledge of the key gives knowledge of all the messages. For encryption systems that span the world, this can be a daunting task. Often couriers hand-carry keys to their destinations.
-    •	If a key is compromised (stolen, guessed, extorted, bribed, etc.), then Eve can decrypt all message traffic encrypted with that key. She can also pretend to be one of the parties and produce false messages to fool the other party.
-    •	Assuming a separate key is used for each pair of users in a network, the total number of keys increases rapidly as the number of users increases. A network of n users requires n(n − l)/2 keys. For example, 10 users require 45 different keys to talk with one another and 100 users require 4950 keys. This problem can be minimized by keeping the number of users small, but that is not always possible.
+
+    •	Keys must be distributed in secret. They are as valuable as all the messages they encrypt, since knowledge of the key gives knowledge of all the messages. For encryption systems that span the world, this           can be a daunting task. Often couriers hand-carry keys to their destinations.
+    •	If a key is compromised (stolen, guessed, extorted, bribed, etc.), then Eve can decrypt all message traffic encrypted with that key. She can also pretend to be one of the parties and produce false messages         to fool the other party.
+    •	Assuming a separate key is used for each pair of users in a network, the total number of keys increases rapidly as the number of users increases. A network of n users requires n(n − l)/2 keys. For example,         10 users require 45 different keys to talk with one another and 100 users require 4950 keys. This problem can be minimized by keeping the number of users small, but that is not always possible.
 
 ### ONE-WAY FUNCTIONS
 
@@ -74,6 +75,7 @@ Symmetric algorithms, likened to safes with a combination key, require both part
 During the emergence of public-key algorithms, a period coinciding with the consideration of the Data Encryption Standard (DES), there was political tension within the cryptographic community. Despite generating excitement in the media and scientific circles, public-key cryptosystems faced resistance from the cryptographic establishment. Simultaneously, the National Security Agency (NSA) proposed DES, leading to criticism from experts such as Marty Hellman and Diffie, who argued that the proposed key size was inadequate. The criticism was met with skepticism, with some viewing it as an attempt to undermine the proposed standard for personal gain. Public-key cryptography itself was also subject to competitive attacks in sales literature and technical papers. Despite this, the NSA claimed credit for the discovery of two-key cryptography a decade earlier, although no supporting evidence was publicly provided.
 
 In the real world, public-key algorithms are not a substitute for symmetric algorithms. They are not used to encrypt messages; they are used to encrypt keys. There are two reasons for this:
+
         1.	Public-key algorithms are slow. Symmetric algorithms are generally at least 1000 times faster than public-key algorithms. Yes, computers are getting faster and faster, and in 15 years computers will be              able to do public-key cryptography at speeds comparable to symmetric cryptography today. But bandwidth requirements are also increasing, and there will always be the need to encrypt data faster than                 public-key cryptography can manage.
         2.	Public-key cryptosystems are vulnerable to chosen-plaintext attacks. If C = E(P), when P is one plaintext out of a set of n possible plaintexts, then a cryptanalyst only has to encrypt all n possible                plaintexts and compare the results with C (remember, the encryption key is public). He won't be able to recover the decryption key this way, but he will be able to determine P.
 
@@ -169,4 +171,4 @@ Checking the current directory
 
 Note: *Dollar sign “$” is the normal user command prompt, user does not write that. After a command, hash mark “#” is comment character, rest of the line is ignored.*
 
-When working on a terminal, you are always <b>on a directory<b> 
+When working on a terminal, you are always <b>on a directory
