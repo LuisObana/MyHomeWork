@@ -171,4 +171,4 @@ Checking the current directory
 
 Note: *Dollar sign “$” is the normal user command prompt, user does not write that. After a command, hash mark “#” is comment character, rest of the line is ignored.*
 
-When working on a terminal, you are always <b>on a directory
+When working on a terminal, you are always on a directory. Current directory is the *working directory*. The code <b>pwd prints the working directory. 
