@@ -225,3 +225,7 @@ On my first attempt, it did not went trough because ssh was not installed yet. H
 
 ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/031a053b-079f-4b15-9936-6a5aa109799c)
 
+Tried connecting to gmail using ssh but did not work
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/4648ae95-1e81-4c32-aaf6-dfe402091843)
+
