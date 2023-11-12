@@ -229,3 +229,9 @@ Tried connecting to gmail using ssh but did not work
 
 ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/4648ae95-1e81-4c32-aaf6-dfe402091843)
 
+Some Useful Helps
+
+    1. To show manual use the command $ man ls
+    2. Short built in help
+        2.1. $ ls --help
+        2.2. $ wget -h
