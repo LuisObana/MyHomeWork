@@ -364,7 +364,7 @@ Understanding Password Storage Vulnerability
 
                 ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/7563d2e9-2afe-48e6-ae05-b237d3f881d2)
 
-Cracking Password with John The Reaper
+## Cracking Password with John The Reaper
 
     1. Comes with Kali Linux and one of the standard ways of cracking password. Very easy to crack
     2. Install John in terminal
@@ -385,7 +385,7 @@ Got an error when trying to execute the commands for John the Ripper
 
 ===================================================================================================================
 
-Billion dollar busywork. Command 'echo -n 'Tero'|sha256sum' prints hash "ba2addbf481bdf4a0178cbf5608e681cb9af519d85fe4d51efe88a4eed9673ed". Try adding something to the string, e.g. 'echo -n 'Tero asdf'|sha256sum'. What do you have to add to get a hash that starts with a zero? (Voluntary bonus: How is this related to Bitcoin? Voluntary difficult bonus: How many zeros can you get to the beginning?)
+## Billion dollar busywork. Command 'echo -n 'Tero'|sha256sum' prints hash "ba2addbf481bdf4a0178cbf5608e681cb9af519d85fe4d51efe88a4eed9673ed". Try adding something to the string, e.g. 'echo -n 'Tero asdf'|sha256sum'. What do you have to add to get a hash that starts with a zero? (Voluntary bonus: How is this related to Bitcoin? Voluntary difficult bonus: How many zeros can you get to the beginning?)
 
 To add zero I used python to check combinations I can use. Note: that finding a nonce that satisfies the difficulty criteria requires significant computational effort and is not a straightforward task. I use nonce (a number used only once) to the input string until you achieve the desired hash. The process of finding the nonce to produce a hash with a specific property is known as "proof of work." In the context of Bitcoin, this process is central to mining.
 
@@ -399,6 +399,65 @@ Sample:
 
 In Context to Bitcoin
 
-<b>Proof of Work (PoW)<b>: Bitcoin miners compete to find a nonce that, when combined with the block's data, produces a hash that starts with a certain number of leading zeros. The difficulty of finding this nonce is adjusted regularly to maintain a consistent block time (approximately 10 minutes).
+**Proof of Work (PoW)**: Bitcoin miners compete to find a nonce that, when combined with the block's data, produces a hash that starts with a certain number of leading zeros. The difficulty of finding this nonce is adjusted regularly to maintain a consistent block time (approximately 10 minutes).
 
-<b>Mining Reward<b>: Miners who successfully find the correct nonce and validate a block are rewarded with newly created bitcoins. This process secures the Bitcoin network and ensures the chronological order of transactions.
+**Mining Reward**: Miners who successfully find the correct nonce and validate a block are rewarded with newly created bitcoins. This process secures the Bitcoin network and ensures the chronological order of transactions.
+
+**Bitcoin Hash Rate**: The total computational power of the Bitcoin network, measured in hashes per second, determines how quickly new blocks can be mined. As more miners join the network, the difficulty increases to maintain the target block time.
+
+====================================================================================================================
+## Compare hash. Create a small text file. Take it's hash (e.g. 'sha256sum tero.txt'). Change one letter. Take the hash again. Compare hashes. What do you notice?
+
+If you create a small text file, take its hash (e.g., sha256sum tero.txt), change one letter in the file, and then take the hash again, you will observe that the hashes are substantially different. Even **a small change in the input data should result in a significantly different hash output**. This property is known as the **avalanche effect in cryptographic hash functions**.
+
+I have created my initial hash
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/9995fec9-4a92-45d6-9109-47d5ab4841f8)
+
+Change one letter from the initial hash
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/cc1666b4-26f4-4851-a619-9ba1633909e6)
+
+You can see that the hash has changed. Even a slight change on the original word the hash result has completely changed. 
+
+================================================================================================================
+
+## Installing Hashcat
+
+As a personal step, I update the Debian terminal first before I do the installation. Next is to type the code to be use for the download and install. 
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/6d58027e-84fc-4252-a55b-c17b9a2e7836)
+
+Test if Working
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/b2e67cfb-5702-4a39-9aaf-0de97115494d)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/a8d96151-7aad-43b2-8ee6-5d84186b900d)
+
+For this testing, the installation of hashcat was successful and it is working. 
+
+==================================================================================================================
+## Crack this hash: 21232f297a57a5a743894a0e4a801fc3
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/f5c84823-0065-4edb-8273-fc455227e85d)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/a815c5ce-45a4-4a7f-a247-444012882504)
+
+=================================================================================================================
+## Crack this Windows NTLM hash: f2477a144dff4f216ab81f2ac3e3207d
+
+We'll use the same command as we did for the MD5 hashes, but we will **swap the -m 0 for -m 1000**..
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/28fbd496-f7ca-4bdf-a8b3-1186e877d99b)
+
+We can see that the NTLM hash was successfully cracked! This a perfect example of why everyone should use a secure password.
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/73d1b5b4-c349-44f8-b266-caec748d8f9d)
+
+===================================================================================================================
+## Try cracking this hash and comment on your hash rate $2y$18$axMtQ4N8j/NQVItQJed9uORfsUK667RAWfycwFMtDBD6zAo1Se2eu . This subtask d does not require actually cracking the hash, just trying it and commenting on the hash rate.
+
+It was faster but I did not actually crack the hash.
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/674aa7c3-d4d6-48e3-b164-25f7957e99d9)
+
