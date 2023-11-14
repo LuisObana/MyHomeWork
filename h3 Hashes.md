@@ -265,3 +265,140 @@ Update list of available packages. Run apt-get update before giving other apt co
 
 =============================================================================================================================================================================================================================================================
 
+## Password Attack
+
+Major companies being attacked (LinkedIn)
+
+    Store user credentials in SQL database or text file
+    Web app SQL DB, active directory Proprietary database
+
+Recent Petya ransomware attack
+    Exploited the system initially using the EternalBlue Exploit and then what the payload did is to use a tool          called Mimikatz (what this tool do is to dump the credentials out of memory) and from there they utilize the         credentials to steal and attack other systems on the network using well known protocols like PsExec and WMI that     are used all the time in windows so the attack would look like a normal traffic. 
+
+Defending against this type of attacks
+    It is very difficult and usually it seems like a mouse and cat game, where we work on it from the defense side.
+        •	Two ways to defend from password attack
+            o	Protect both the storage side and while they are being transmitted over the network. For the storage                 there are various ways to defend, Operating Systems (OS) have their own protective measures. 
+                    1. Limit the access to these storage mechanisms to people who only needs the access
+                    2. Have intrusion detection and Endpoint protection
+                    3. Auditing is also a good approach so you would be able to see if anything looks fishy or if                           people are accessing it in ways that they shouldn’t be
+            o	While password is being transmitted over the network, we have to use encryption to ensure that                       people listening over the network traffic cannot intercept that information
+            o	From an end user standpoint, to protect your own account, it is highly recommended to:
+                    1. Make your passwords longer
+                    2. Enable two-factor authentication (when possible)
+
+Understanding Authentication and Authorization Attacks
+
+    o	Easy way to hack passwords – often referred to as cheating.
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/e948fe25-59a2-4e3e-9769-c53a1a521192)
+
+Vendors often use default passwords and users of software’s/hardware’s often does not change their passwords like they should. As an attacker these can be used against them
+
+    •	A number of websites, when we search, can provide us a list of default passwords based on what we are trying         to attack
+            o	Example if you are looking for a specific type of router, then you can simply look it up on the                      router list
+    •	We live in a world, where we often need to remember a lot of different passwords. To solve this issue what           we do is one password for all (not the best resolution). 
+    •	If we are to find the administrator account password, it would be easy to compromise the rest of the                 computers on the network
+
+Easiest ways to capture credentials
+    The first goal of credential attacks is to actually identify valid users and then attack the passwords. There        are some methods to use in identifying the valid users
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/af175bb5-3f3a-4904-8a0a-d3023c7436bc)
+
+Sniffing them right out of thin air
+    Using a hotspot in common areas like coffeeshops or hotels, since they don’t have the security mechanism which       is built into them, or enabled, to encrypt the traffic between network nodes which means that once you are           connected to that network, one can sniff the traffic of any user that’s connected. So make sure that the next        time you connect to a public hotspot you are connected or using a VPN.  This is a similar scenario when              connected to a physical network which is of course dependent on the switch configuration, which can be difficult     but there tools available to get around it. 
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/c54ede63-b151-485d-80a4-f06e7ebb7126)
+
+Man in the middle attack is another way of capturing credentials.
+
+    Man in the middle attack means that essentially you own the traffic that’s passing through you so you can            capture it and pull out the credentials from that traffic.
+
+Ways in attacking encryption to steal passwords (Complex types of attacks)
+    1. SSL Certificate spoofing
+    2. SSH Downgrade and key spoofing
+
+Stealing credentials directly from the network device
+    Compromising a router or switch or a wireless access point you can easily own the traffic and harvest the            credentials directly from that device
+
+If all else fails, you can brute force your way in. There are a lot of tools we can use but most of them work by loading in some kind of dictionary or table of credentials or hashes. Then use these loaded credentials in an automated way to basically test the credentials against whatever your target is. 
+
+    1. It will iterate through the list of credentials that it has until it finds the one that works
+    2. You can use brute forcing other than capturing credentials
+        o	For instance, the tool called Dirbuster, which is built in to Kali Linux, which is used to discovering               directories and files on web servers. It uses a dictionary of well-known website files and directories.              The same process is used, it iterates through the list of finds the one that actually respond. 
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/c3c65c0a-e579-4c87-8d63-22ec27bf4590)
+
+Exploring Password Storage Mechanisms 
+    1. Encryption has been part of signals intelligence for quite some time.
+    2. If you want to protect a secret, encrypt it. 
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/bb625345-8f78-4782-83d2-b74c0e7cfeb9)
+
+One way hashing is not an encryption but it is used to protect passwords, though it is not reversible, its algorithms is designed to be computed quickly. So you can compute many hashes from a dynamic source like word list or permutations, brute force and compare the result to find a match. 
+
+How hashing works
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/82376aa0-bac2-4407-a626-361aa3099a3d)
+
+Start with the words, on this example we use Pearson, then send it through a hash function, for this example we use MD5. Since it applies one way algorithm, the output is a string of characters which is unique to a specific clear text (input). Now the string can be used in various ways to verify the integrity of the clear text that was provided. 
+
+We can also use SHA256 aside from MD5 which is a better algorithm. 
+
+Understanding Password Storage Vulnerability
+    Why is it easy to crack passwords? If passwords are not encrypted, it is easy to crack. 
+
+   ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/2768dc9b-432a-4cd4-ae1d-27ecafd5d783)
+
+ It is easier to crack passwords even if encrypted for several reasons:
+
+    1. We used to rely only on CPU’s, even though it gets faster and faster which in turn results to cracking               password faster, now we also have GPU’s are used to crack password as well. GPU’s are often much faster than         relying on CPU. Another is you can distribute the computation across CPU and GPU to crack the same password          set which often increases the speed of cracking the password. There are also weak algorithms which makes it          easier to crack the password. 
+
+    2. Cracking Window’s LanMan and NT passwords are slightly different, it is easily spot on how the LanMan                passwords are easy to crack that the NT for several reasons:
+            2.1 LanMan – automatically takes your password and makes it all upper case and then it splits it into                    two seven – character passwords and so you can crack all upper case passwords and two sub seven-                     character sets which makes it easy to crack. Windows does not have salting and algorithms which is                   much easier to crack passwords
+
+                2.1.1. So to explain, in Windows if two different individuals have the same password their hash                             would look exactly the same, in Linux because of salting, it would be two different hashes.                          So weak algorithms is a big issue
+                        2.1.1.1. Password breaches – you can look up previous breaches online since there is a                                        tendency for people to use same password over and over again, it can help you with                                   cracking ability
+                        2.1.1.2. Rainbow Tables – don’t have all the combinations of a password, they use a                                           reduction function to actually get a large number of passwords, upwards of 99% of                                    the passwords per certain sets within smaller files
+                2.1.2. There are dictionaries which have been built over time based off of rainbow tables or                                password breaches
+
+                ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/7563d2e9-2afe-48e6-ae05-b237d3f881d2)
+
+Cracking Password with John The Reaper
+
+    1. Comes with Kali Linux and one of the standard ways of cracking password. Very easy to crack
+    2. Install John in terminal
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/731cf527-176d-40e9-9a7c-180e81eb4396)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/b9b68f56-f1f9-45a9-a8f5-b0ab679bc5f3)
+
+Type john on the terminal to see the menu 
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/52b530eb-1b76-4d87-8777-11c69a60a69e)
+
+Got an error when trying to execute the commands for John the Ripper
+
+<b> Command not Found
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/2b4a4470-62ce-4425-813f-b31a2af4fc5f)
+
+===================================================================================================================
+
+Billion dollar busywork. Command 'echo -n 'Tero'|sha256sum' prints hash "ba2addbf481bdf4a0178cbf5608e681cb9af519d85fe4d51efe88a4eed9673ed". Try adding something to the string, e.g. 'echo -n 'Tero asdf'|sha256sum'. What do you have to add to get a hash that starts with a zero? (Voluntary bonus: How is this related to Bitcoin? Voluntary difficult bonus: How many zeros can you get to the beginning?)
+
+To add zero I used python to check combinations I can use. Note: that finding a nonce that satisfies the difficulty criteria requires significant computational effort and is not a straightforward task. I use nonce (a number used only once) to the input string until you achieve the desired hash. The process of finding the nonce to produce a hash with a specific property is known as "proof of work." In the context of Bitcoin, this process is central to mining.
+
+Sample:
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/8ab14583-31f3-48ba-bb16-e61a59ab458c)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/92a5b9f9-e823-4f7c-9b59-55622378f95f)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/c0f109e2-81aa-4107-862d-c5d81b8f3070)
+
+In Context to Bitcoin
+
+<b>Proof of Work (PoW)<b>: Bitcoin miners compete to find a nonce that, when combined with the block's data, produces a hash that starts with a certain number of leading zeros. The difficulty of finding this nonce is adjusted regularly to maintain a consistent block time (approximately 10 minutes).
+
+<b>Mining Reward<b>: Miners who successfully find the correct nonce and validate a block are rewarded with newly created bitcoins. This process secures the Bitcoin network and ensures the chronological order of transactions.
