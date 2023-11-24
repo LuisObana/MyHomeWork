@@ -33,6 +33,7 @@ The proof-of-work mechanism addresses the challenge of determining representatio
 ### Network
 
 The steps to run the network are as follows:
+
     1) New transactions are broadcast to all nodes.
     2) Each node collects new transactions into a block. 
     3) Each node works on finding a difficult proof-of-work for its block.
