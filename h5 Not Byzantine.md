@@ -85,3 +85,7 @@ Click on Next
 Step 4. Successfully created the wallet
 
 ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/aff2791a-6e06-4ddd-8a14-d742b6ab8eb5)
+
+## Reference
+    1. Lecture from Tero
+
