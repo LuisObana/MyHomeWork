@@ -51,3 +51,36 @@ The first transaction in a block conventionally initiates a new coin owned by th
 ## References:
   1. Satoshi Nakamoto **Bitcoin: A Peer-to-Peer Electronic Cash System** Link: https://bitcoin.org/bitcoin.pdf
 
+## Wallet. Create a BitCoin testnet wallet.
+
+Step 1. Before we start creating the BitCoin testnet wallet, it is recommended to update all tools in debian. See below for code:
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/6f609b58-e9a2-40d2-83b6-eaabb5002e5b)
+
+Step 2. Install electrum
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/88ad3270-8a26-4b1a-b2e1-f0f2265eda66)
+
+*Note: On this example, electrum was already installed since I did the practice. What will happen when it is already installed, terminal will check if you have the latest version. If not, it will update.*
+
+Step 3. Run electrum
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/179454c0-5494-439b-a906-24404d2a5fcc)
+
+Click on Next
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/aa3004f0-2277-462f-a389-c99d0f8d2337)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/85fcfd2b-56fe-4adc-a587-f18190b1644e)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/0203e64d-e160-43ab-a1cc-eb8bee84d197)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/948f61ec-5886-4488-9272-481153ea75e1)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/f76e8f84-5aa5-4aa7-9fbd-af73dffe4e2f)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/a81f6db5-f53d-4e85-a0ef-d48e7d269dea)
+
+Step 4. Successfully created the wallet
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/aff2791a-6e06-4ddd-8a14-d742b6ab8eb5)
