@@ -1,4 +1,4 @@
-## Bitcoin: A Peer-to-Peer Electronic Cash System
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/ecd0fb56-1c99-4916-ae78-82992bc3d57d)## Bitcoin: A Peer-to-Peer Electronic Cash System
 
 The concept of a purely peer-to-peer electronic cash system that enables online payments directly between parties without the need for a financial institution. Digital signatures address part of the security challenge, but the issue of double-spending remains. The proposed solution involves a peer-to-peer network that timestamps transactions through a chain of hash-based proof-of-work, creating an unchangeable record. The longest chain, backed by the most CPU power, serves as proof of transaction sequence and is resistant to attacks as long as the majority of CPU power is controlled by non-cooperating nodes. The network is designed with minimal structure, allowing nodes to join or leave at will, accepting the longest proof-of-work chain as the authoritative record.
 
@@ -143,3 +143,36 @@ Step 2. Click on pay and input required information
 
 ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/021b3cad-0376-4b29-886c-923b3251fb0f)
 
+## Reference:
+    1. Tero's Lecture
+
+## Explorer. Use a block explorer to analyze a block on the real Bitcoin blockchain. Explain what each value and field means. You only need to analyze the block information and one sample transaction, as a block can contain many transactions
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/f335d8cb-1aa0-4e05-ae33-ff5c6da7760b)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/bfa9f8f7-ed9e-4dc1-8665-9c7e3227c86a)
+
+### Parameters:
+
+    1. Hash --> A unique identifier used to identify a block
+    2. Distance --> The time since the block was mined
+    3. BTC --> Accumulative amount of crypto sent on all transactions of the block
+    4. Value --> Value of all the transactions since the block was mined
+    5. Input Value --> Sum of all transactional inputs amount
+    6. Transactions --> Number of transactions included on this block
+
+### Blockchain
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/ebcceecd-7f60-4bf6-87d1-7fed2351dcbe)
+
+### Bitcoin Block 818,295
+
+A total of 1,916.98 BTC ($72,562,408) were sent in the block with the average transaction being 2.1112 BTC ($79,914.05). Unknown earned a total reward of 6.25 BTC $236,577. The reward consisted of a base reward of 6.25 BTC $236,577 with an additional 0.7737 BTC ($29,286.43) reward paid as fees of the 908 transactions which were included in the block.
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/7c55ffa3-b0df-46d9-85eb-bd828d478a3d)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/9debf170-2b60-4bdb-b9a9-0562c57fd3fc)
+
+
+## Reference:
+    1. Bitcoin Block 818,295 Link: https://www.blockchain.com/explorer/blocks/btc/818295
