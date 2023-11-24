@@ -122,3 +122,24 @@ Step 3. Follow the instruction, usually it will ask for your BTC address. To get
 Step 4. Check history of your wallet and confirm if the bitcoin test money was received
 
 ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/1be7292c-f016-46cd-9d37-dae33b3efaaa)
+
+## References
+    1. Instruction - from Tero's Lecture
+    2. Bitcoin Test Money Link: https://coinfaucet.eu/en/btc-testnet/ 
+
+Giveway. Move money to another Bitcoin wallet. Choose an amount where the last two digists are 42.
+
+To give the money, choose the send function on your wallet. Follow instruction below:
+
+Step 1: Go to your wallet, click on send and input the required information
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/bac139f1-8059-4b57-86d2-657cf6e3cae6)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/2384f7cc-ccec-4618-84a1-d5008e5518c6)
+
+Step 2. Click on pay and input required information
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/4d083837-cf58-4ee6-8fd2-769ac11d8db4)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/021b3cad-0376-4b29-886c-923b3251fb0f)
+
