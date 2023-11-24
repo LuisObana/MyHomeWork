@@ -89,3 +89,36 @@ Step 4. Successfully created the wallet
 ## Reference
     1. Lecture from Tero
 
+## Faucet. Get worthless fake money from a testnet Bitcoin faucet.
+
+To start with the test money, follow the instruction below:
+
+Step 1: Go to your wallet, click on view and show addresses
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/0b3e6a0a-5a8a-434c-bdc9-69735ff16401)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/740b5de5-5151-4634-8532-f841aab01b38)
+
+Step 2: Open web browser and search for bitcoin testnet faucet, and click on the first one. As seen on the screenshot
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/16ba3da6-4f67-404b-9749-14e029239d7f)
+
+Step 3. Follow the instruction, usually it will ask for your BTC address. To get the bitcoin test money and the address follow the instruction below. 
+
+    Step 3.1 Go to your wallet and click address. You will see all your addresses. 
+    
+    ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/6824dbe2-ea96-4835-9891-6ecc246b10e0)
+
+    Step 3.2 Right click an address and copy. Right click --> Copy Column --> Address
+    Step 3.3 Paste on the webpage for Bitcoin Test to generate the test money. 
+    Step 3.4 Answer the capcha correctly
+
+    ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/78a535fe-0e25-48d1-bd6b-442f10417c5b)
+
+    Remember!: Get the address where you need to return the bitcoins after you use them and return them. 
+
+    ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/13c4d696-e0cc-4a6c-9217-8fafe426c965)
+
+Step 4. Check history of your wallet and confirm if the bitcoin test money was received
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/1be7292c-f016-46cd-9d37-dae33b3efaaa)
