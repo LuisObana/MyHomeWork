@@ -51,6 +51,7 @@ The first transaction in a block conventionally initiates a new coin owned by th
 ## References:
   1. Satoshi Nakamoto **Bitcoin: A Peer-to-Peer Electronic Cash System** Link: https://bitcoin.org/bitcoin.pdf
 
+
 ## Wallet. Create a BitCoin testnet wallet.
 
 Step 1. Before we start creating the BitCoin testnet wallet, it is recommended to update all tools in debian. See below for code:
