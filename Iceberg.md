@@ -142,3 +142,75 @@ The speed to load was a little faster compared to the rest. Though I see that th
 ## Reference:
         1. Tor Project. Link: https://www.torproject.org/download/
 
+##  In your own words, how does anonymity work in TOR? (e.g. how does it use: public keys, encryption, what algorithms?
+
+**Disclaimer!!** I am not familiar with TOR so I cannot provide an explanation. I researched and found one closer to answering the question above. Link indicated on the reference. 
+
+### How does Tor, the dark web browser, work?
+
+Tor uses onion routing to encrypt and reroute web traffic through Tor’s onion network. After your data is secured inside multiple layers of encryption, your web traffic is transmitted through a series of network nodes, called onion routers. Each router (or node) “peels away” a layer of encryption until the data reaches its final destination, fully decrypted.
+
+Tor anonymously transmits encrypted data across three layers of international proxies that make up the Tor circuit. Let’s take a closer look at the three layers of network nodes:
+
+        1. Entry/Guard node: First, Tor Browser randomly connects to a publicly known entry node. The entry node introduces your data into the Tor circuit.
+        
+        2. Middle nodes: Here your data is fully encrypted. Then it’s sent through a series of nodes which decrypt your data one layer at a time. To ensure anonymity, each middle node knows only the identity of            the preceding and the subsequent middle nodes.
+        
+        3. Exit node: Once the last layer of encryption is peeled off, the decrypted data leaves the Tor network via an exit node and reaches its final server destination.
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/8a1ba5cb-df1c-4372-b1b3-2bcb91b3b8bb)
+
+Sounds complicated, right? That’s because it is. But fortunately knowing how to use Tor Browser doesn’t require a PhD in computer science — it’s surprisingly easy and user-friendly.
+
+### Does Tor Browser hide your IP and how?
+
+Tor Browser employs onion routing technology to effectively conceal users' IP addresses from network surveillance and traffic analysis. This process involves relaying data through numerous network nodes to hide both location and identity. The multi-layered encryption used in onion routing enhances privacy protection. With over 7,000 independent network relays involved, Tor-encrypted data undergoes an elaborate "peeling" process before reaching its destination, ensuring the complete obscurity of its origin. This level of security makes Tor highly effective at protecting data and hiding IP addresses from websites, internet service providers (ISPs), and governmental entities.
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/b7c7defa-3f39-4766-b493-333e334c0a25)
+
+### Is Tor Browser anonymous?
+
+Tor Browser is anonymous in terms of hiding your location and browsing activity — but there are limits. Although they can’t see your browsing activity or Tor encrypted data, your ISP can still see that you’re using Tor. You can also be identified if you log in to an online account or provide details to a website while using Tor.
+
+## Reference
+        1. Avast Academy. The Dark Web Browser: What Is Tor, Is It Safe, and How to Use It Link: https://www.avast.com/c-tor-dark-web-                        
+        browser#:~:text=The%20Tor%20Browser%20hides%20your,to%20protect%20their%20privacy%20online. 
+
+## What kind of the threat models could TOR fit?
+
+**Disclaimer!!** I tried to conduct a research on this but no success. There are those I was able to read but then I could not really understand it well. So I checked CHATGPT (someone advice). Here is what Chat GPT has to say about the question. 
+
+Tor is designed to address specific threat models related to online privacy and anonymity. It is well-suited for users facing threats from various forms of surveillance, censorship, and identity exposure. Here are some threat models for which Tor can be a valuable tool:
+
+Censorship and Surveillance:
+
+        Threat Model: Users facing censorship or surveillance by authoritarian regimes or organizations.
+        How Tor Helps: Tor enables users to bypass censorship and access information freely by routing traffic through a series of nodes, obscuring their identity and preventing direct 
+        surveillance.
+
+Privacy from ISPs:
+
+        Threat Model: Users concerned about their internet service providers (ISPs) monitoring and logging their online activities.
+        How Tor Helps: Tor encrypts the user's traffic and routes it through a network of nodes, preventing ISPs from easily tracking and analyzing their online behavior.
+
+Whistleblowers and Journalists:
+
+        Threat Model: Individuals sharing sensitive information or reporting on issues where revealing their identity could have serious consequences.
+        How Tor Helps: Tor provides a means for whistleblowers and journalists to communicate and access information without revealing their identity or location, protecting them from             potential retaliation.
+
+Anonymous Browsing:
+
+        Threat Model: Users wanting to browse the internet without leaving a trace of their online activities.
+        How Tor Helps: Tor helps users achieve a higher level of anonymity by concealing their IP address and making it challenging for websites to track and identify them.
+
+Research and Activism:
+
+        Threat Model: Researchers, activists, or individuals working on sensitive projects who need to protect their identity and communications.
+        How Tor Helps: Tor offers a layer of protection for individuals engaged in research or activism by anonymizing their online presence and communications.
+
+Protection from Traffic Analysis:
+
+        Threat Model: Users concerned about adversaries analyzing their network traffic patterns to deduce sensitive information.
+        How Tor Helps: The use of onion routing in Tor obscures traffic patterns, making it difficult for adversaries to perform effective traffic analysis and compromise user privacy.
+
+## Reference: ChatGPT
