@@ -74,3 +74,23 @@ Tor is some of the strongest anonymity software that exists. We think that it is
 Step 1. Open the Debian VM and do sudo update
 
 ![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/3fa08dac-fa52-4708-bee7-9510df392444)
+
+Step 2. Search for TOR within the VM environment and follow the instruction provided from the link. 
+Link used: https://support.torproject.org/apt/tor-deb-repo/ 
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/030c360a-7e66-4ae8-8592-eb5f0ebe5713)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/bccb15a9-4488-4eef-9c2f-f321b1337a2e)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/d185c9ac-84c6-4bcd-8993-58fef0e7a55a)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/816f9753-f8eb-4cbc-bd4d-e789cbda33dc)
+
+Ste 3. Go to download file
+
+Ste 4. Verify the File's signature
+
+Ste 5. Double Click the .exe file
+
+Step 6. Follow the steps to complete the installation
+
