@@ -68,3 +68,9 @@ Tor is some of the strongest anonymity software that exists. We think that it is
 ## References:
     1. Shavers & Bair 2016: Hiding Behind the Keyboard: The Tor Browser Link: https://learning.oreilly.com/library/view/hiding-behind-the/9780128033524/XHTML/B9780128033401000021/B9780128033401000021.xhtml#s0020
     2. Quintin 2014: 7 Things You Should Know About Tor Link: https://www.eff.org/deeplinks/2014/07/7-things-you-should-know-about-tor 
+
+## Install TOR Browser
+
+Step 1. Open the Debian VM and do sudo update
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/3fa08dac-fa52-4708-bee7-9510df392444)
