@@ -90,7 +90,55 @@ Ste 3. Go to download file
 
 Ste 4. Verify the File's signature
 
-Ste 5. Double Click the .exe file
+Ste 5. Extract the downloaded file
 
-Step 6. Follow the steps to complete the installation
+Step 6. Open the extracted folder and look for the start-to-browser file. Right click and choose run in terminal. 
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/0ad53f50-b76a-4b7e-b888-b8cb9e23e1a5)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/b6e326d3-1d9c-4017-a1cb-34a9be77f7c4)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/402283ed-fd20-46a5-94bd-d88edc661dac)
+
+## Browse TOR network, find, take screenshots and comment
+
+### Search Engine for Onion Sites 
+
+Similar to the normal search engine though I am not really inclined to use because I am not that familiar with this and I dont want my network to be compromised. 
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/aa740c10-a151-4442-aeae-c7dabd81d06c)
+
+### Marketplace
+
+When I started the search engine, it was slower than usual speed using normal browser. When I saw the prompt allow cookies I declined all. As mentioned I am not familiar and I want to be cautious of all the sites I worked with on this assignment. 
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/69db4186-d6a0-4e31-8bad-0869ee578b57)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/30729b46-3e3a-43e4-8467-c050c3f5cfab)
+
+### Fraud
+
+The performance was the same, it was slower than usual. 
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/95589480-723a-473c-a8a2-17fa82fb241d)
+
+### Forums
+
+The performance was the same, slower than usual. I clicked one, as indicated on the screenshot below, they are asking for a donation so I close the browser. 
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/dc5789ed-4051-4754-af93-46bef333a27b)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/dc5d70d0-716b-4f10-a91f-b1f2146d8715)
+
+### Well known Organization
+
+The speed to load was a little faster compared to the rest. Though I see that the page is in TOR Circuit, I don't see any difference on the landing page when I clicked on the Accenture link. 
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/8a69f91d-7c3d-422b-ae78-fa84e915a937)
+
+![image](https://github.com/LuisObana/MyHomeWork/assets/149092789/f2eddff5-27bb-4cdb-92af-c738bb64785f)
+
+
+## Reference:
+        1. Tor Project. Link: https://www.torproject.org/download/
 
